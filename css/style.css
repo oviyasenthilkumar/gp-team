@@ -59,16 +59,14 @@ img{
 	border-top-right-radius:2.5px;
 	
 }
-.team-title h5::after {
-    content:"";
-    height: 2.5px;
-	width: 100px;
+h5 hr{
+    height:1.5px;
+    width: 100px;
     display: inline-block;
     background:#dea90b;
-    margin: 5px 10px;
+    margin: 5px ;
+    border:none;
 }
-
-
 h5{
 	font-size:15px;
 	text-transform:uppercase;
@@ -87,7 +85,11 @@ h2{
 
 	position:absolute;
 	top:53%;
-	left:27%;
+	left:20%;
+}
+.team-icon{
+	padding:5px;
+	display:inline-block;
 }
 i{
 	border:1px none ;
